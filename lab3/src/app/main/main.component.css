@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    z-index: 1;
+}
+.main-picture {
+    height: 450px;
+    width: 100%;
+    background-image: url(https://flowers-country.ru/wp-content/uploads/2018/01/1363851286_krasivye-kartinki-na-rabochiy-stol-cvety-28.jpg);
+    background-size: 100% 100%;
+}
+.main-text {
+    display: block;
+    padding: 130px 0px 0px 100px;
+}
+h1{
+    display: inline;
+    background-color: white;
+    opacity: 0.7;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding-top: 1px;
+    font-weight: 300;
+}
+.main-button {
+    display: block;
+    padding: 20px 40px;
+    background-color: rgb(239, 255, 224);
+    color: rgb(107, 125, 59);
+    font-size: 20px;
+    border: 1px solid rgb(107, 125, 59);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.main-button:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(107, 125, 59);
+    margin-top: 90px;
+}
+.blocks-benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px 0px 0px 30px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    height: 140px;
+    width: 260px;
+    background-color: rgb(239, 255, 224);
+    border: 2px solid rgb(107, 125, 59);
+}
+.text-benefits {
+    color: rgb(107, 125, 59);
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 300;
+}
+h5 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(107, 125, 59);
+}
+.info {
+    margin-top: 20px;
+    text-align: center;
+}
+.main-info {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    color: rgb(107, 125, 59);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+@media (max-width: 320px){
+    .main-text{
+      display: flex;
+      align-items: center;
+    }
+  
+}
+@media (max-width:1009px) {
+    .blocks-benefits{
+      flex-direction: column;
+      align-items: center;
+    }
+    .block{
+      margin-top: 20px;
+    }
+}

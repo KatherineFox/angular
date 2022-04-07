@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navbar{
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(239, 255, 224);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    top: 0;
+    height: 100px;
+    cursor: pointer;
+}
+  
