@@ -8,7 +8,6 @@
 .main-picture {
     height: 450px;
     width: 100%;
-    background-image: url("assets/img/main-picture.png");
     background-size: 100% 100%;
 }
 .main-text {
