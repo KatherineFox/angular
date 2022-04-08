@@ -8,7 +8,7 @@
 .main-picture {
     height: 450px;
     width: 100%;
-    background-image: url(https://flowers-country.ru/wp-content/uploads/2018/01/1363851286_krasivye-kartinki-na-rabochiy-stol-cvety-28.jpg);
+    background-image: url("assets/img/main-picture.png");
     background-size: 100% 100%;
 }
 .main-text {
